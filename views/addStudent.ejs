@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/dashboard.css">
+</head>
+<body>
+    <div class="container_S">
+        <a href="/profile" class="back"> <-Back </a>
+        <h1>Add Student</h1>
+      <form action="/addStudent" method="post" enctype="multipart/form-data">
+
+        <div class="file-input-wrapper">
+             <input type="file" name="file" class="studentImage">
+             <label for="fileInput" class="file-input-label">Choose profile</label>
+        </div>
+        <input  class="addStudent_in" type="text" placeholder="First name" name="firstname">
+        <input class="addStudent_in"  type="text" placeholder="Last name" name="lastname">
+        <input class="addStudent_in"  type="text" placeholder="Username" name="username">
+        <input  class="addStudent_in"  type="text" placeholder="Email" name="email">
+        <input   class="addStudent_in" type="text" placeholder="Course" name="course">
+        <input  class="addStudent_in"  type="password" placeholder="Password" name="password">
+        <input   class="addStudent_in" type="number" placeholder="Number" name="number">
+
+        <button  class="addStudent_b"  type="submit">Add</button>
+
+       </form>
+    </div>
+</body>
+</html>

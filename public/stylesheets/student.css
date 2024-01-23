@@ -1,0 +1,83 @@
+body{
+  background-color: #DBDADA;
+}
+
+.container{
+  justify-content: center;
+  border: 4px solid  #676262;
+  border-radius: 15px;
+  margin: auto;
+  width: 50%;
+  padding: 40px;
+  padding-left: 100px;
+  margin-top: 10%; 
+  
+  
+}
+
+.light{
+    color: #757474;
+    font-family: Montserrat;
+font-size: 21px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.dark{
+font-family: Montserrat;
+font-size: 21px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.header{
+    display: flex;
+}
+.profileImg{
+    width: 40px;
+    height: 40px;
+    float: right;
+    border-radius: 50%;
+}
+
+.button{
+    background: #5C93FA;
+    width: 110px;
+    height: 50px;
+    border-radius: 13.22px;
+    border: none;
+  }
+.button >a {
+  text-decoration: none;
+  color: white;
+}
+
+.user-profile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #f0f0f0;
+      }
+  
+      .user-details {
+        display: flex;
+        align-items: center;
+      }
+  
+      .username {
+        margin-right: 10px;
+        font-weight: bold;
+        font-size: larger;
+      }
+  
+      .profile-pic {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+      }

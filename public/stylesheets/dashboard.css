@@ -1,0 +1,253 @@
+.left{
+    align-items: center;
+    height: 700px;
+    width: 20%;
+    background-color:rgb(163, 159, 159);
+    border-radius: 4%;
+    margin: 1%;
+    padding: 1%;
+}
+.right{
+    height: 700px;
+    width: 85%;
+    background-color:rgb(163, 159, 159);;
+    border-radius: 4%;
+    margin: 2%;
+    padding: 2%;
+
+}
+.container{
+    display: flex;
+    height: 100%;
+    margin: none;
+}
+
+.left_b{
+ 
+  color: black;
+  display: block;
+  border: none;
+  padding: 10px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.left_b > a{
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+.right_b{
+    display: block;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+}
+.addStudent_in{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid  #DBDADA;
+}
+.addStudent_b{
+background: #5C93FA;
+width: 80px;
+height: 40px;
+border-radius: 13.22px;
+border: none;
+
+}
+.container_S{
+  justify-content: center;
+  border: 4px solid  #676262;
+  border-radius: 15px;
+  margin: auto;
+  width: 50%;
+  padding: 40px;
+  padding-left: 100px;
+  margin-top: 10%; 
+  
+  
+}
+.back{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: larger;
+}
+.file-input-wrapper {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #5C93FA;
+  }
+
+  .file-input-wrapper input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+   
+  }
+
+  .file-input-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  .student-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    
+    padding: 2px;
+    margin: 4px;
+  }
+
+  .student-details {
+    display: flex;
+    align-items: center;
+  }
+
+  .profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    overflow: hidden;
+  }
+
+  .profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .student-info {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  .student-info span {
+    font-weight: bold;
+    margin-right: 10px;
+    width: 100px;
+    padding: 20px;
+    background-color: #DBDADA;
+    
+  }
+  
+
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+
+  
+.wrapper{
+  display: block;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 25px;
+  background-color: rgb(50, 50, 50);
+  padding: 5px;
+  border-radius: 10px;
+}
+.navbar-nav .nav-item:hover {
+  background-color: rgb(124, 118, 118);
+}
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.allStudentsDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  width: 90%;
+  margin: 30px auto;
+  background: rgb(191, 211, 228);
+  text-align: center;
+}
+.barUl li {
+  font-weight: 600;
+  /* font-size: 20px; */
+}
+.bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 100%; /* Adjust the width as needed */
+  margin: 4px;
+}
+
+.bar img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.bar ul {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.bar ul li {
+  margin-bottom: 5px;
+  list-style: none;
+  align-items: start;
+}
+
+.bar ul li:nth-child(1),
+.bar ul li:nth-child(2) {
+  text-transform: capitalize;
+  width: 120px;
+}
+.bar ul li:nth-child(3),
+.bar ul li:nth-child(4) {
+  width: 140px;
+}
+.bar ul li:nth-child(5),
+.bar ul li:nth-child(6) {
+  text-transform: capitalize;
+  width: 80px;
+}
+.bar ul li:nth-child(7),
+.bar ul li:nth-child(8) {
+  width: 50px;
+}

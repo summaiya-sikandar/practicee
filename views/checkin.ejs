@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Take a Selfie</h1>
+  <form action="/save-selfie" method="post" enctype="multipart/form-data">
+    <label for="selfie">Upload your selfie:</label>
+    <input type="file" name="selfie" accept="image/*" capture="user">
+    <input type="hidden" name="userId" value="user123"> <!-- Replace with the actual user ID -->
+    <button type="submit">Save Selfie</button>
+  </form>
+</body>
+</html>

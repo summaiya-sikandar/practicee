@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="/stylesheets/student.css">
+</head>
+<body>
+    <div class="container">
+        <div class="user-profile">
+            <div class="user-details">
+              <div class="username">Hello,<%= user.firstname%> <%= user.lastname%></div>
+            </div>
+            <img class="profile-pic" src="/images/uploads/<%= user.file%>" alt="Profile Picture">
+        </div>
+       
+
+        <p class="light">Id</p>
+        <p class="dark"><%= user._id%></p>
+        <p  class="light">Course</p>
+        <p class="dark"><%= user.course%></p>
+        
+        <button class="button" > <a href="/markAttendence">Mark Attendence</a></button>
+        <button class="button" > <a href="/logout">Logout</a></button>
+
+    </div>
+    
+</body>
+</html>

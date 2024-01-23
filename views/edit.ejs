@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link rel="stylesheet" href="/stylesheets/dashboard.css">
+</head>
+<body>
+    <div class="container_S">
+        <a href="/profile" class="back"> <-Back </a>
+        <h1>Edit Student</h1>
+    <form action="/editSubmit/<%= user._id%>" method="post" enctype="multipart/form-data">
+        <div class="file-input-wrapper">
+             <input type="file" name="file" class="studentImage">
+             <label for="fileInput" class="file-input-label">Choose profile</label>
+        </div>
+
+    <div class="wrapper">
+        <label for="fileInput" >First name</label>
+        <input  class="addStudent_in" type="text" placeholder="<%= user.firstname%>" name="firstname">
+        
+        <label for="fileInput">Last name</label>
+        <input class="addStudent_in"  type="text" placeholder="<%= user.lastname%>" name="lastname">
+    </div>
+
+    <div class="wrapper">
+        <label for="fileInput" >Username</label>
+        <input class="addStudent_in"  type="text" placeholder="<%= user.username%>" name="username">
+        
+        <label for="fileInput" >Email</label>
+        <input  class="addStudent_in"  type="text" placeholder="<%= user.email%>" name="email">
+    </div>
+   
+
+    <div class="wrapper">
+        <label for="fileInput" >Course</label>
+        <input   class="addStudent_in" type="text" placeholder="<%= user.course%>" name="course">
+        
+        <label for="fileInput" >Password</label>
+        <input  class="addStudent_in"  type="password" placeholder="<%= user.password%>" name="password">
+    </div>    
+        <label for="fileInput" >Number</label>
+        <input   class="addStudent_in" type="number" placeholder="<%= user.number%>" name="number">
+    
+        <button  class="addStudent_b"  type="submit">Edit</button>
+
+       </form>
+    </div>
+</body>
+</html>
